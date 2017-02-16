@@ -1,0 +1,42 @@
+body {
+  background-image: url(https://images.alphacoders.com/307/thumb-350-307931.jpeg);  
+  color: black;
+  font-family: helvetica;
+  font-weight: bold;
+  text-align: center;
+}
+
+main{
+  width: 300px;
+  margin: 0 auto;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+  font-size: 22px;
+  margin: 10px;
+}
+
+.album{
+  padding: 5px;
+}
+
+h1{
+  font-family: helvetica;
+  text-align: center;
+}
+
+p{
+  font-family: helvetica;
+  font-size: 24px; 
+}
+
+#albums{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center
+}
